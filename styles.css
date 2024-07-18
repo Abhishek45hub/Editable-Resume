@@ -1,0 +1,65 @@
+.container {
+    padding: 20px;
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.resume-wrapper {
+    padding: 20px;
+    background: white;
+    display: inline-block;
+    text-align: left; /* Align text to the left */
+}
+
+.resume {
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.profile-pic-container {
+    text-align: left; /* Align profile pic container to the left */
+}
+
+.profile-pic-container img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.details h1, .details p {
+    margin: 0;
+    text-align: left; /* Align details text to the left */
+}
+
+.content h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left; /* Align content text to the left */
+}
+
+.download-container {
+    text-align: center; /* Center the download button */
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+    background-color: #15cded;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color:orange;
+}

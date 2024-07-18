@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="resume-wrapper" id="resume-wrapper">
+            <div class="resume" id="resume">
+                <div class="profile-pic-container">
+                    <img src="IMG-20240529-WA0019.jpg" alt="Profile Picture" id="profile-pic">
+                    <input type="file" id="upload-pic" accept="image/*">
+                </div>
+                <div class="details">
+                    <h1 contenteditable="true">P ABHISHEK</h1>
+                    <p contenteditable="true">Frontend Developer</p>
+                    <p contenteditable="true">(+91) 8328454110</p>
+                </div>
+                <div class="content">
+                    <h2 contenteditable="true">EDUCATION:</h2>
+                    <p contenteditable="true">B. Tech in CSE from HYDERABAD INSTITUTE OF TECHNOLOGY AND MANAGEMENT
+                        CGPA: 7.1 (2021 - 2024)</p>
+                    <p contenteditable="true">Diploma in EEE from
+                        GOVT.POLYTECHNIC VIKARABAD
+                        CGPA: 9.42 (2018 - 2021)</p>
+                    <p contenteditable="true">Class X - SSC from K.K.REDDY HIGH SCHOOL GPA: 8.7 (2017 - 2018)</p>
+                    <h2 contenteditable="true">EXPERIENCE:</h2>
+                    <p contenteditable="true">Numetry Technologies Pune - Frontend Developer Intern (JAN - JUN 2024)
+                        <br>Pro Imaginations - Completed Industrial Training (JUN - DEC 2023)</p>
+                    <h2 contenteditable="true">TECHNICAL SKILLS:</h2>
+                    <p contenteditable="true">Languages: Python, MySQL
+                       <br> Web Development: HTML, CSS, PHP, JavaScript, React
+                        </p>
+                    <h2 contenteditable="true">LANGUAGES:</h2>
+                    <p contenteditable="true">English (Full Professional), Telugu (Native), Hindi (Professional)</p>
+                    <h2 contenteditable="true">PROJECTS:</h2>
+                    <p contenteditable="true">Placement Portal:
+                        <br>A suitable placement portal enhances the campus placement process by offering features like<br>
+                        personalized student profiles, automated job matching, and real-time updates. It allows students to<br>
+                        showcase their skills and preferences.</p>
+                    <p contenteditable="true">Paperless Medical History Application:
+                        <br>Modern technology is used by the PMHA to speed up the recording, storing, and retrieval of patient<br>
+                        medical histories, which eventually resulting better healthcare delivery. The PMHA provides a userfriendly<br>
+                         interface that makes it simple for medical professionals</p>
+                    <h2 contenteditable="true">PERSONAL DETAILS:</h2>
+                    <p contenteditable="true">
+                        Date of Birth: 02/11/2002<br>
+                        Hobbies/Interests: Cricket, Gaming, Painting, and Music.<br>
+                        Current Address: Hyderabad, Telangana</p>
+                </div>
+                
+                <div class="download-container">
+                    <button class="btn btn-primary" id="download">Download as PDF</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
